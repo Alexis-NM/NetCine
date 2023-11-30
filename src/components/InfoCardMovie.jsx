@@ -32,7 +32,7 @@ function InfoCardMovie({ movie, onClose }) {
         {movie.title}
       </h2>
       <p className="synopsis">{movie.overview}</p>
-      <p className="release">Release Date : {formattedReleaseDate}</p>
+      <p className="release">Réalisé le : {formattedReleaseDate}</p>
       {movie.trailerKey && (
         <iframe
           title="Trailer"
@@ -56,9 +56,9 @@ function InfoCardMovie({ movie, onClose }) {
             </div>
           ))}
       </div>
-      <p className="rating-title">
-        Rating : <Rating rating={movie.rating} />
-      </p>
+      <div className="rating-title">
+        Note du film : <Rating rating={movie.rating} />
+      </div>
     </div>
   );
 }

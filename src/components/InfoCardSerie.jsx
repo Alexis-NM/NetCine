@@ -32,7 +32,7 @@ function InfoCardSerie({ serie, onClose }) {
         {serie.title}
       </h2>
       <p className="synopsis">{serie.overview}</p>
-      <p className="release">Release Date : {formattedReleaseDate}</p>
+      <p className="release">Diffusée le : {formattedReleaseDate}</p>
       {serie.trailerKey && (
         <iframe
           title="Trailer"
@@ -56,9 +56,9 @@ function InfoCardSerie({ serie, onClose }) {
             </div>
           ))}
       </div>
-      <p className="rating-title">
-        Rating : <Rating rating={serie.rating} />
-      </p>
+      <div className="rating-title">
+        Note de la série : <Rating rating={serie.rating} />
+      </div>
     </div>
   );
 }
