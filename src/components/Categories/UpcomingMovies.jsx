@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import CarouselMovies from "../CarouselMovies";
 
-const apiKey = import.meta.env.VITE_TMDB_API_KEY;
+const apiKey = "1329e3fdf6cb4c841d442aac3a82d249"
 
 function UpcomingMovies() {
   const [upco, setUpco] = useState([]);

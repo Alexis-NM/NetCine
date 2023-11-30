@@ -9,7 +9,7 @@ function SearchBar() {
   const { addFavorite, removeFavorite, isFavorite } =
     useContext(FavoritesContext);
 
-  const apiKey = import.meta.env.VITE_TMDB_API_KEY;
+  const apiKey = "1329e3fdf6cb4c841d442aac3a82d249";
 
   useEffect(() => {
     if (inputSearch) {
