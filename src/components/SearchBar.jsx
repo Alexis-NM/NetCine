@@ -89,7 +89,6 @@ function SearchBar() {
           }
           return null;
         })}
-        ;
       </div>
     </div>
   );
