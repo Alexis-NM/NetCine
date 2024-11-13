@@ -1,0 +1,51 @@
+$black: #0e0505;
+$crimson: #410909;
+$fireBrick: #520b0b;
+$red: #670e0e;
+$lightRed: #701b1b;
+$whitesmoked: #eddcdc;
+
+.about {
+  background-image: url("../assets/B-G.jpg");
+  background-position: center center;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+
+  .TMDB {
+    width: 40%;
+    margin: auto;
+    background-color: $black;
+    border-radius: 20px;
+    padding: 3%;
+    border-style: solid;
+    border-color: $whitesmoked;
+    margin-top: 10%;
+  }
+  .infos {
+    color: $whitesmoked;
+    text-align: center;
+    background-color: $black;
+    margin: auto;
+    padding: 0.3rem;
+    border-radius: 20px;
+    opacity: 75%;
+    font-size: 1.3rem;
+    width: 80vw;
+  }
+}
+@media screen and (min-width: 650px) {
+
+  .about .TMDB {
+    width: 20%;
+    margin: auto;
+  }
+  .about .infos{
+    width: 50%;
+    padding: 2rem;
+  }
+}
