@@ -1,0 +1,27 @@
+$black: #0e0505;
+$crimson: #410909;
+$fireBrick: #520b0b;
+$red: #670e0e;
+$lightRed: #701b1b;
+$whitesmoked: #eddcdc;
+
+footer {
+  text-align: center;
+
+  p {
+    color: $whitesmoked;
+    bottom: 0;
+    margin-top: 10rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  footer {
+    p {
+      bottom: 0;
+      margin-top: 6rem;
+      font-size: 1.5rem;
+    }
+  }
+}
